@@ -1,0 +1,23 @@
+# MATLAB / Simulink autosave and temp files
+*.autosave
+*.asv
+*.m~
+slprj/
+*.slxc
+*_backup*
+
+# MATLAB generated code / cache
+codegen/
+*.mex*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+*.swp
+
+# Large data / results (uncomment if you generate big files you don't want tracked)
+# data/*.csv
+# results/*.mat
