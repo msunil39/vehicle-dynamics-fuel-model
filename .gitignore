@@ -1,0 +1,12 @@
+*.autosave
+*.asv
+*.m~
+slprj/
+*.slxc
+*_backup*
+codegen/
+*.mex*
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
