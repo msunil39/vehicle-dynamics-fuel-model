@@ -8,7 +8,7 @@ Commercial vehicle fuel economy depends on vehicle mass, aerodynamic drag, rolli
 ## Approach
 - Simulink model: vehicle body dynamics (drag + rolling resistance), engine torque curve (lookup table), speed-dependent gear ratio selection, PI-controller-based drive cycle tracking
 - Solver: ode23tb (stiff solver), required due to nonlinear lookup table interactions
-- Python: post-processing of simulation output — speed tracking and fuel consumption visualization, fuel economy metrics
+- Python: post-processing of simulation output speed tracking and fuel consumption visualization, fuel economy metrics
 
 ## Tech Stack
 MATLAB, Simulink (Lookup Tables, PID Controller, Signal Editor), Python (pandas, matplotlib)
